@@ -16,7 +16,7 @@ class backup extends module {
 *
 * @access private
 */
-function backup() {
+function __construct() {
   $this->name="backup";
   $this->title="Backup";
   $this->module_category="<#LANG_SECTION_SYSTEM#>";
